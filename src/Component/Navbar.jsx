@@ -11,8 +11,7 @@ const Navbar = () => {
         <p className="font-bold text-white text-2xl ">RHS</p>
       </div>
       <div className=" md:flex justify-between  items-center text-white gap-x-5  hidden md:block w-[60%]" >
-        <p className="text-xl font-popins text-white  font-medium">Home</p>
-        <p className="text-xl font-popins text-white  font-medium">WHAT I Do</p>
+        <p className="text-xl font-popins text-white  font-medium">HOME</p>
         <p className="text-xl font-popins text-white  font-medium">SKILL</p>
         <p className="text-xl font-popins text-white  font-medium">PORTFOLIO</p>
         <p className="text-xl font-popins text-white  font-medium">CONTACT</p>
@@ -35,7 +34,6 @@ const Navbar = () => {
    <div className={`flex-col  md:hidden ${show ?"block" :"hidden"}`}>
    <div className="bg-slate-800    items-center text-white gap-x-10  w-full mx-auto" >
    <p className="text-xl font-popins text-white  font-light">Home</p>
-        <p className="text-sm font-popins text-white  font-light">WHAT I Do</p>
         <p className="text-sm font-popins text-white  font-light">SKILL</p>
         <p className="text-sm font-popins text-white  font-light">PORTFOLIO</p>
         <p className="text-sm font-popins text-white  font-light">CONTACT</p>
