@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         'comon': '#0F1624',
+        'primary': "#6978D1" 
         
       },
       fontFamily: {
