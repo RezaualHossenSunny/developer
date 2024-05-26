@@ -44,7 +44,7 @@ const Skil = () => {
 
 <div className='py-14 p-5 md:p-0'>
   
-<div className={click === 1 ?"show" :"setshow"}>
+<div  className={click === 1 ?"show" :"setshow"}>
     <div className='grid grid-cols-2 md:grid-cols-6 gap-8'>
     
     <div className='bg-white rounded-full py-7 px-7'>
@@ -77,7 +77,7 @@ const Skil = () => {
     
      </div>
 
-     <div className={click === 2 ?"show" :"setshow"}>
+     <div  className={click === 2 ?"show" :"setshow"}>
       <div className='grid grid-cols-2 md:grid-cols-6 gap-8'>
 
 

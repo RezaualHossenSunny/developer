@@ -8,7 +8,7 @@ const Navbar = () => {
      <div className="bg-comon">
      <div className="bg-comon items-center py-5 flex justify-between relative  max-w-container mx-auto ">
       <div className="">
-        <p className="font-bold text-white text-3xl px-2 md:px-0 ">R<span className="text-primary" >H</span>S</p>
+        <p data-aos="flip-right"  className="font-bold text-white text-3xl px-2 md:px-0 ">R<span className="text-primary" >H</span>S</p>
       </div>
       <div className=" md:flex justify-between  items-center text-white gap-x-5  hidden md:block w-[60%]" >
         <p className="text-xl font-popins text-white  font-medium">HOME</p>

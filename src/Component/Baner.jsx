@@ -9,7 +9,7 @@ const Baner = () => {
   return (
     <div className='bg-comon'>
       <div className=' md:flex py-0 md:py-28 max-w-container mx-auto p-6 md:p-0'>
-        <div className='w-full md:w-3/5  py-32'>
+        <div data-aos="fade-down" className='w-full md:w-3/5  py-32'>
           <h3 className='font-popins font-semibold text-cyan-400 text-2xl md:text-4xl'>Hellow  ! Iam</h3>
           <h2 className='font-popins font-bold text-white text-3xl md:text-5xl mt-5'>Rezaul Hossen Sunny</h2>
 
@@ -50,7 +50,7 @@ const Baner = () => {
 
 
 
-        <div className=' w-full p-4 md:p-0 md:w-2/5'>
+        <div data-aos="fade-left" className=' w-full p-4 md:p-0 md:w-2/5'>
 
           <img className='w-[500px] rounded-full  bg-[#6978D1]' src={portfolio} />
 
