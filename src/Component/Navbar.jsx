@@ -38,8 +38,8 @@ const Navbar = () => {
         <p className="text-sm font-popins text-white  font-bold py-1 text-center">PORTFOLIO</p>
         <p className="text-sm font-popins text-white  font-bold py-1 text-center">CONTACT</p>
 
-        <div className="w-[20%]   text-white rounded-md  mt-2  pb-4 py-2 mx-auto">
-          <a href={resume} className=" text-sm font-popins text-white  font-medium  py-3 px-5 bg rounded-md    " download> Resume</a>
+        <div className="w-[20%]   text-white rounded-md  mt-2  pb-4  mx-auto">
+          <a href={resume} className=" text-sm font-popins text-white  font-medium  py-3 px-5 bg rounded-md  mx-auto   " download> Resume</a>
         </div>
       </div>
    </div>

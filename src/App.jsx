@@ -8,11 +8,11 @@ function App() {
 
 
   return (
-<>
+<div className='bg-comon'>
 <Navbar/>
 <Baner/>
 <Skil/>
-</>
+</div>
   )
 }
 
