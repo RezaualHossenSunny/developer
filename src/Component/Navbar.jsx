@@ -18,7 +18,7 @@ const Navbar = () => {
      
 
         <div className="w-[20%] flex justify-end  text-white rounded-md  ">
-          <a href={resume} className=" text-xl font-popins text-white  font-medium  py-5 px-10 bg-primary rounded-md    " download> Resume</a>
+          <a href={resume} className=" text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md    " download> Resume</a>
         </div>
       </div>
 
@@ -28,18 +28,18 @@ const Navbar = () => {
 
 
       <div className="md:hidden absolute top-5 right-0 inline-block " onClick={()=> setShow(!show)}>
-      <CiMenuFries  className="text-white" />
+      <CiMenuFries  className="text-white  text-3xl" />
       </div>
 
    <div className={`flex-col  md:hidden ${show ?"block" :"hidden"}`}>
-   <div className="bg-slate-800    items-center text-white gap-x-10  w-full mx-auto" >
-   <p className="text-xl font-popins text-white  font-light">Home</p>
-        <p className="text-sm font-popins text-white  font-light">SKILL</p>
-        <p className="text-sm font-popins text-white  font-light">PORTFOLIO</p>
-        <p className="text-sm font-popins text-white  font-light">CONTACT</p>
+   <div className="bg-slate-800    items-center text-white gap-x-10  w-full mx-auto " >
+        <p className="text-sm font-popins text-white  font-bold py-1 text-center">HOME</p>
+        <p className="text-sm font-popins text-white  font-bold py-1  text-center">SKILL</p>
+        <p className="text-sm font-popins text-white  font-bold py-1 text-center">PORTFOLIO</p>
+        <p className="text-sm font-popins text-white  font-bold py-1 text-center">CONTACT</p>
 
-        <div className="w-[20%] flex justify-end  text-white rounded-md  mt-2  pb-3">
-          <a href={resume} className=" text-xl font-popins text-white  font-medium  py-3 px-10 bg-primary rounded-md    " download> Resume</a>
+        <div className="w-[20%]   text-white rounded-md  mt-2  pb-4 py-2 mx-auto">
+          <a href={resume} className=" text-sm font-popins text-white  font-medium  py-3 px-5 bg rounded-md    " download> Resume</a>
         </div>
       </div>
    </div>

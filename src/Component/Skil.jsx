@@ -31,12 +31,12 @@ const Skil = () => {
   
    <div className='flex py-24 gap-8'>
 
-   <p onClick={()=> update (1)} className='text-xl font-popins text-white  font-medium  py-5 px-10 bg-primary rounded-md cursor-pointer'>Frontend </p>
-   <p onClick={()=> update (2)}className='text-xl font-popins text-white  font-medium  py-5 px-10 bg-primary rounded-md cursor-pointer'>Backend</p>
+   <p onClick={()=> update (1)} className='text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Frontend </p>
+   <p onClick={()=> update (2)} className='text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Backend</p>
 
-   <p onClick={()=> update (3)}className='text-xl font-popins text-white  font-medium  py-5 px-10 bg-primary rounded-md cursor-pointer'>Tolls</p>
+   <p onClick={()=> update (3)} className='text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Tolls</p>
 
-   <p onClick={()=> update (4)}className='text-xl font-popins text-white  font-medium  py-5 px-10 bg-primary rounded-md cursor-pointer'>Pograming</p>
+   <p onClick={()=> update (4)} className='text-xl font-popins text-white  font-medium  py-5 px-10 bg  rounded-md cursor-pointer'>Pograming</p>
     
 
    </div>

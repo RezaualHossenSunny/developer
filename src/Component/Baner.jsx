@@ -8,10 +8,10 @@ import { FaSquareGithub } from 'react-icons/fa6';
 const Baner = () => {
   return (
     <div className='bg-comon'>
-      <div className='flex py-28 max-w-container mx-auto'>
-        <div className='w-3/5  py-32'>
-          <h3 className='font-popins font-semibold text-cyan-400 text-4xl'>Hellow  ! Iam</h3>
-          <h2 className='font-popins font-bold text-white text-5xl mt-5'>Rezaul Hossen Sunny</h2>
+      <div className=' md:flex py-14 md:py-28 max-w-container mx-auto'>
+        <div className='w-full md:w-3/5  py-32'>
+          <h3 className='font-popins font-semibold text-cyan-400 text-2xl md:text-4xl'>Hellow  ! Iam</h3>
+          <h2 className='font-popins font-bold text-white text-3xl md:text-5xl mt-5'>Rezaul Hossen Sunny</h2>
 
           <div className='mt-5'>
             <TypeAnimation
@@ -29,7 +29,7 @@ const Baner = () => {
               speed={50}
               //   style={{ fontSize: '2em', display: 'inline-block' }}
               repeat={Infinity}
-              className=' font-popins font-semibold text-cyan-400 text-4xl'
+              className=' font-popins font-semibold text-cyan-400 text-1xl md:text-4xl'
             />
           </div>
 
@@ -50,7 +50,7 @@ const Baner = () => {
 
 
 
-        <div className='w-2/5'>
+        <div className=' w-full p-4 md:p-0 md:w-2/5'>
 
           <img className='w-[500px] rounded-full  bg-[#6978D1]' src={portfolio} />
 
