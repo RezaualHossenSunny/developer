@@ -29,7 +29,7 @@ const Skil = () => {
      <p className='text-white font-popins text-2xl text-center md:text-left md:text-4xl font-bold'>SKILL</p>
      </div>
   
-   <div className='flex py-8 md:py-24 p-4 md:p-0  gap-4 md:gap-8'>
+   <div className='flex py-8 md:py-24 p-8 sm:4  md:p-0  gap-4 md:gap-8'>
 
    <p onClick={()=> update (1)} className=' text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Frontend </p>
    <p onClick={()=> update (2)} className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Backend</p>
