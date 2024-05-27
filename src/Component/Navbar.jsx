@@ -5,8 +5,8 @@ const Navbar = () => {
    const [show ,setShow] =useState(false)
   return (
     <>
-     <div className="bg-comon">
-     <div className="bg-comon items-center py-5 flex justify-between relative  max-w-container mx-auto ">
+     <div className="bg-slate-800  fixed w-full ">
+     <div className="bg-slate-800  items-center py-5 flex justify-between relative  max-w-container mx-auto ">
       <div className="">
         <p data-aos="flip-right"  className="font-bold text-white text-3xl px-2 md:px-0 ">R<span className="text-primary" >H</span>S</p>
       </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
 
    <div className={`flex-col  md:hidden ${show ?"block" :"hidden"}`}>
-   <div className="bg-slate-800    items-center text-white gap-x-10  w-full mx-auto " >
+   <div className="bg-slate-800    items-center text-white gap-x-10  w-full mx-auto  mt-[70px]" >
         <p className="text-sm font-popins text-white  font-bold py-1 text-center">HOME</p>
         <p className="text-sm font-popins text-white  font-bold py-1  text-center">SKILL</p>
         <p className="text-sm font-popins text-white  font-bold py-1 text-center">PROJECTS</p>
