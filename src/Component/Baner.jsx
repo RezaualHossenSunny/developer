@@ -7,7 +7,7 @@ import { FaSquareGithub } from 'react-icons/fa6';
 
 const Baner = () => {
   return (
-    <div className='bg-comon'>
+    <div className='bg-comon  py-0 md:py-28'>
       <div className=' md:flex py-0 md:py-28 max-w-container mx-auto p-6 md:p-0'>
         <div data-aos="fade-down" className='w-full md:w-3/5  py-32'>
           <h3 className='font-popins font-semibold text-cyan-400 text-2xl md:text-4xl'>Hellow  ! Iam</h3>
