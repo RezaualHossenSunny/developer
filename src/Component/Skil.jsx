@@ -27,6 +27,7 @@ const Skil = () => {
 
      <div>
      <p className='text-white font-popins text-2xl text-center md:text-left md:text-4xl font-bold'>SKILL</p>
+     <div className=' w-[100px] mx-auto md:mx-0 md:w-[150px] h-[4px]  mt-4 bg'></div>
      </div>
   
    <div className='flex py-8 md:py-24 p-8 sm:4  md:p-0  gap-4 md:gap-8'>
@@ -40,6 +41,9 @@ const Skil = () => {
     
 
    </div>
+
+
+   
 
 
 <div className='py-14 p-5 md:p-0'>
