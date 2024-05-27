@@ -3,8 +3,8 @@ import resume from '../assets/Rezaul Hossen  Sunny.pdf'
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 const Contact = () => {
     return (
-        <div>
-            <div className='max-w-container mx-auto py-24'>
+        <div id='contacet'>
+            <div className='max-w-container mx-auto py-28'>
 
                 <div>
                     <p className='text-white font-popins text-2xl text-center md:text-left md:text-4xl font-bold'> CONTACT</p>
@@ -12,8 +12,8 @@ const Contact = () => {
                 </div>
 
                 <div className=' md:flex  justify-between py-10'>
-                    <div className='w-2/4'>
-                        <p className='font-popins font-bold w-[400px] md:w-full p-5 md:p-0 text-1xl md:text-3xl text-white'>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
+                    <div data-aos="fade-down-right" className='w-2/4'>
+                        <p  className='font-popins font-bold w-[400px] md:w-full p-5 md:p-0 text-1xl md:text-3xl text-white'>I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
 
                         <div className="  py-4 md:py-14 text-white rounded-md   ml-4 md:ml-0">
                             <a href={resume} className=" text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md     " download> Resume</a>
@@ -22,7 +22,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div className='w-2/4  pl-0 md:pl-28 py-4 md:py-0'>
+                    <div data-aos="fade-down-left" className='w-2/4  pl-0 md:pl-28 py-4 md:py-0'>
                         <div className=' p-8 md:p-0'>
                             <p className='font-bold font-popins text-white text-xl md:text-4xl   '>Email</p>
                             <p className='font-semibold font-popins text-white text-sm md:text-xl mt-4'>sunnyrahman960@gmail.com</p>

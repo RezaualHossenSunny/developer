@@ -21,7 +21,7 @@ const Skil = () => {
     }
 
   return (
-    <div className='bg-comon py-8 md:py-24 '>
+    <div id='skill' className='bg-comon py-8 md:py-28'>
     <div className='max-w-container mx-auto'>
 
 

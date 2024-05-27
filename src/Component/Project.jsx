@@ -3,8 +3,8 @@ import '../App.css'
 import image1 from '../assets/image 1.png'
 const Project = () => {
   return (
-    <div>
-      <div className='max-w-container mx-auto py-2 md:py-24'>
+    <div id='project'>
+      <div className='max-w-container mx-auto py-2 md:py-28'>
         <p className='text-white font-popins font-bold text-2xl text-center md:text-left md:text-4xl'>PROJECT </p>
         <div className=' w-[100px] mx-auto md:mx-0 md:w-[200px] h-[4px]  mt-4 bg'></div>
 
