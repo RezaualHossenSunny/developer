@@ -1,6 +1,7 @@
 
 import Baner from './Component/Baner';
 import Navbar from './Component/Navbar';
+import Project from './Component/Project';
 import Skil from './Component/Skil';
 
 
@@ -12,6 +13,11 @@ function App() {
 <Navbar/>
 <Baner/>
 <Skil/>
+<Project/>
+
+
+
+
 </div>
   )
 }
