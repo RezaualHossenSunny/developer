@@ -10,7 +10,7 @@ const Project = () => {
 
         <div className=' md:flex justify-between py-12 md:py-24  p-5 '>
 
-          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders '>
+          <div data-aos="fade-right" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders '>
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
@@ -28,7 +28,7 @@ const Project = () => {
 
           </div>
 
-          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
+          <div data-aos="fade-left" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
@@ -51,7 +51,7 @@ const Project = () => {
 
         <div className=' md:flex justify-between py-0 md:py-24  p-5 '>
 
-          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders '>
+          <div data-aos="fade-right" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders '>
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
@@ -69,7 +69,7 @@ const Project = () => {
 
           </div>
 
-          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
+          <div data-aos="fade-left" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
@@ -89,6 +89,7 @@ const Project = () => {
 
 
         </div>
+        <div  className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer w-[200px] md:w-[300px] mx-auto text-center mt-10 md:mt-0'>More </div>
       </div>
     </div>
   )

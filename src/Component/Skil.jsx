@@ -35,9 +35,9 @@ const Skil = () => {
    <p onClick={()=> update (1)} className=' text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Frontend </p>
    <p onClick={()=> update (2)} className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Backend</p>
 
-   <p onClick={()=> update (3)} className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Tolls</p>
+   <p onClick={()=> update (3)} className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Tools</p>
 
-   <p onClick={()=> update (4)} className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Pograming</p>
+   <p onClick={()=> update (4)} className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer'>Programming</p>
     
 
    </div>
