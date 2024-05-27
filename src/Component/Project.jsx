@@ -28,7 +28,7 @@ const Project = () => {
 
           </div>
 
-          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt0'>
+          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
@@ -69,7 +69,7 @@ const Project = () => {
 
           </div>
 
-          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt0'>
+          <div className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
