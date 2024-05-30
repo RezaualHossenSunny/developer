@@ -28,8 +28,9 @@ const Navbar = () => {
      
 
 
-      <div className="md:hidden absolute top-5 right-0 inline-block " onClick={()=> setShow(!show)}>
-      <CiMenuFries  className="text-white  text-3xl" />
+  <div className="fixed w-full">
+  <div className="md:hidden absolute top-5 right-0 inline-block px-3 " onClick={()=> setShow(!show)}>
+      <CiMenuFries  className="text-white  text-3xl " />
       </div>
 
    <div className={`flex-col  md:hidden ${show ?"block" :"hidden"}`}>
@@ -44,6 +45,7 @@ const Navbar = () => {
         </div>
       </div>
    </div>
+  </div>
 
       
 
