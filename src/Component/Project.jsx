@@ -1,6 +1,9 @@
 import React from 'react'
 import '../App.css'
-import image1 from '../assets/image 1.png'
+import image1 from '../assets/imm1.png'
+import image2 from '../assets/slider-1 1.png'
+import image3 from '../assets/bank.png'
+import image4 from '../assets/HOME.png'
 const Project = () => {
   return (
     <div id='project'>
@@ -12,17 +15,17 @@ const Project = () => {
 
           <div data-aos="fade-right" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders '>
             <div className='items-center p-6 rounded-lg'>
-              <img src={image1} />
+              <img src={image2} />
 
-              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>PROJECT 1</p>
+              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>Orebi E Commerce</p>
 
               <div className='w-[300px]  h-[2px] md:h-[4px] mx-auto bg'></div>
-              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>It is an e-commerce website .Used React to build it ,Tailwindcss as a framework, Implemented here redux and react router dom </p>
             </div>
 
             <div className='flex gap-2 md:gap-10  pl-6 md:pl-6'>
-            <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </p>
-              <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </p>
+            <a href='https://orebi-ecommerce-mu.vercel.app/'  className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </a>
+              <a href='https://github.com/RezaualHossenSunny/orebi-_ecommerce' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </a>
             </div>
 
 
@@ -30,17 +33,19 @@ const Project = () => {
 
           <div data-aos="fade-left" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders  mt-10 md:mt-0'>
             <div className='items-center p-6 rounded-lg'>
-              <img src={image1} />
+              <img className=' h-[150px] md:h-[250px] w-full' src={image4} />
 
-              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>PROJECT 1</p>
+              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>Social Media</p>
 
               <div className='w-[300px]  h-[2px] md:h-[4px] mx-auto bg'></div>
-              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>
+              It is an social media website .Used React to build it , Implemented here redux , fribase , Logical Statement ,And Localstorge
+              </p>
             </div>
 
             <div className='flex gap-2 md:gap-10  pl-6 md:pl-6'>
             <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </p>
-              <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </p>
+              <a href='https://github.com/RezaualHossenSunny/chat' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </a>
             </div>
 
 
@@ -53,17 +58,17 @@ const Project = () => {
 
           <div data-aos="fade-right" className=' w-full md:w-[550px]  h-[480px] md:h-[650px] borders '>
             <div className='items-center p-6 rounded-lg'>
-              <img src={image1} />
+              <img src={image3} />
 
-              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>PROJECT 1</p>
+              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>Bank Loan App</p>
 
               <div className='w-[300px]  h-[2px] md:h-[4px] mx-auto bg'></div>
-              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>It is an Bank Loan  website .Used React to build it ,Tailwindcss as a framework, Implemented here react cgar js and </p>
             </div>
 
             <div className='flex gap-2 md:gap-10  pl-6 md:pl-6'>
-            <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </p>
-              <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </p>
+            <a href='https://bank-react-flax.vercel.app/' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </a>
+              <a href='https://github.com/RezaualHossenSunny/Bank_React'  className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </a>
             </div>
 
 
@@ -73,15 +78,15 @@ const Project = () => {
             <div className='items-center p-6 rounded-lg'>
               <img src={image1} />
 
-              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>PROJECT 1</p>
+              <p className='text-center font-bold font-popins py-2 md:py-6 text-white text-2xl md:text-4xl'>Finsweet</p>
 
               <div className='w-[300px]  h-[2px] md:h-[4px] mx-auto bg'></div>
-              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className=' font-semibold text-xl md:text-2xl text-white font-popins py-2 md:py-5'>It is an Start Up Company website .Used Bootstarp5 to build it , Implemented here row html css responcive </p>
             </div>
 
             <div className='flex gap-2 md:gap-10  pl-6 md:pl-6'>
-            <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </p>
-              <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </p>
+            <a href='https://finswent.vercel.app/' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </a>
+              <a href='https://github.com/RezaualHossenSunny/finswen' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </a>
             </div>
 
 
