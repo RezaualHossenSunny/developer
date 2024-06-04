@@ -94,7 +94,7 @@ const Project = () => {
 
 
         </div>
-        <div  className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer w-[200px] md:w-[300px] mx-auto text-center mt-10 md:mt-0'>More </div>
+        <div  className='text-xs md:text-xl font-popins text-white  font-medium  py-5 md:py-5 px-3 md:px-10 bg rounded-md cursor-pointer w-[200px] md:w-[300px] mx-auto text-center mt-10 md:mt-0'> <a href="https://github.com/RezaualHossenSunny">More</a> </div>
       </div>
     </div>
   )
