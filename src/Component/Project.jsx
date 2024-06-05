@@ -44,7 +44,7 @@ const Project = () => {
             </div>
 
             <div className='flex gap-2 md:gap-10  pl-6 md:pl-6'>
-            <p className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </p>
+            <a href='https://chat-wayl.vercel.app/login' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Live View </a>
               <a href='https://github.com/RezaualHossenSunny/chat' className=' text-sm md:text-xl font-popins text-white  font-medium  py-5 px-10 bg rounded-md cursor-pointer'>Source Code </a>
             </div>
 
